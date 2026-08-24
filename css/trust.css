@@ -1,0 +1,82 @@
+ :root{
+     --subcolor: #374151;
+    --textcolor:  rgb(226, 229, 231);
+    --maincolor:#111827;
+    --navcolor:rgba(225, 255, 255, 0.3);
+    --fontfamily: tahoma, sans-serif;
+ }
+
+.trust{
+    font-size: 5em;
+    color: var(--textcolor);
+    margin-top: 1em;
+    font-family: var(--fontfamily);
+    text-align: center;
+    font-weight: 800;
+    display: flex;
+}
+.trustimage{
+    padding: 1em 1em 1em 1em;
+    margin-left: 5em;
+}
+.orbit{
+    min-height: 3em;
+    min-width: 6em;
+    max-width:12em;
+    max-height: 20em;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 1.5em;
+    padding: 1em 1em 1em 1em;
+}
+.nova{
+    padding: 1em 1em 1em 1em;
+}
+.vertex{
+    min-height: 3em;
+    min-width: 6em;
+    max-width:12em;
+    max-height: 20em;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 1.5em;
+    padding: 1em 1em 1em 1em;
+}
+.lumen{
+    min-height: 3em;
+    min-width: 6em;
+    max-width:12em;
+    max-height: 20em;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 1.5em;
+    padding: 1em 1em 1em 1em;
+}
+.quantum{
+    min-height: 3em;
+    min-width: 6em;
+    max-width:12em;
+    max-height: 20em;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 1.5em;
+    padding: 1em 1em 1em 1em;
+}
+.pixel{
+    padding: 1em 1em 1em 1em;
+}
+.four{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:1em;
+    flex-wrap: wrap;
+    vertical-align: bottom;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    vertical-align: bottom;
+}

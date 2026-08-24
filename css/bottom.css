@@ -1,0 +1,107 @@
+:root{
+    --subcolor: #374151;
+    --textcolor:  rgb(226, 229, 231);
+    --maincolor:#111827;
+    --navcolor:rgba(225, 255, 255, 0.3);
+    --fontfamily: tahoma, sans-serif;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    vertical-align: top;
+    gap: 2em;
+    margin-top: 10em;
+    width: 100%;
+    border-top: 3px var(--navcolor) solid;
+
+}
+.footimg{
+    display: flex;
+    flex-direction: column;
+    max-width: 30em;
+    margin-right: auto;
+}
+.nexoraimg{
+    max-width: 10em;
+    max-height: 4em;
+}
+.buildclass{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 2em;
+    font-weight: 600;
+    text-align: left;
+}
+.nexoraproject{
+    display: block;
+    font-size: 00.7em;
+    font-weight: 200;
+}
+.connectvar{
+    display: flex;
+    flex-direction: column;
+    max-width: 20em;
+}
+.connectplatform{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 1em;
+    font-weight: 600;
+}
+.socialstik{
+    max-width: 3em;
+    max-height: 3em;
+}
+.workall{
+    display: flex;
+    flex-direction: column;
+}
+.withus{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 1em;
+    font-weight: 600;
+}
+.allapp{
+    max-width: 3em;
+    max-height: 3em;
+}
+.companyall{
+    display: flex;
+    flex-direction: column;
+}
+.companynexora{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 1em;
+    font-weight: 600;
+}
+.navbottom{
+    max-width: 3em;
+    max-height: 3em;
+    font-size: 1em;
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    font-weight: 300;
+    transition: 0.8s;
+}
+.navbottom:hover{
+    color: var(--subcolor);
+    transition: 0.8s;
+    cursor: pointer;
+}
+.copyright{
+    font-size: 1em;
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.reservedright{
+    font-size: 1em;
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    font-weight: 500;
+}

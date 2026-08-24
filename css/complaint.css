@@ -1,0 +1,185 @@
+:root{
+    --subcolor:  #374151;
+    --textcolor:  rgb(226, 229, 231);
+    --maincolor:#111827;
+    --navcolor:rgba(225, 255, 255, 0.3);
+    --fontfamily: tahoma, sans-serif;
+}
+.furtherinquiry{
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+}
+.allcomplain{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    background-color:#374151;
+    border-radius: 2em;
+    margin: 0 auto;
+    box-sizing: content-box;
+    gap: 1em;
+    padding: 1em 1em 1em 1em;
+}
+.fullname{
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    font-size: 1em;
+    font-weight: 700;
+}
+.complainame{
+    box-sizing: content-box;
+    border-radius: 2em;
+    border-width: 1px;
+    border-style: none;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    font-family: var(--fontfamily);
+    max-width: 30em;
+    background-color: var(--maincolor);
+    color: var(--textcolor);
+    transition: 0.2s;
+}
+.complainame:focus{
+    outline: #374151;
+    border-width: 3px;
+    transition: 0.2s;
+}
+.complainame:hover{
+    cursor: pointer;
+}
+.emailaddress{
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    font-size: 1em;
+    font-weight: 700;
+}
+.complainemail{
+    box-sizing: content-box;
+    border-radius: 2em;
+    border-width: 1px;
+    border-style: none;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    font-family: var(--fontfamily);
+    max-width: 30em;
+    background-color: var(--maincolor);
+    color: var(--textcolor);
+    transition: 0.2s;
+}
+.complainemail:focus{
+    outline: #374151;
+    border-width: 3px;
+    transition: 0.2s;
+}
+.complainemail:hover{
+    cursor: pointer;
+}
+.description{
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    font-size: 1em;
+    font-weight: 700;
+}
+.complainquestion{
+    border-radius: 2em;
+    border-width: 1px;
+    border-style: none;
+    padding-top: 15px;
+    font-family: var(--fontfamily);
+    max-width: 40em;
+    min-height: 12em;
+    background-color: var(--maincolor);
+    color: var(--textcolor);
+}
+.complainquestion:focus{
+    outline: #374151;
+    border-width: 3px;
+    transition: 0.2s;
+}
+.clarify{
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    font-size: 1em;
+    font-weight: 700;
+}
+.uploadfile{
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    font-size: 1em;
+    font-weight: 700;
+}
+.upload-box {
+    width: 90%;
+    max-width: 60em;
+    min-height: 20em;
+
+    margin: auto;
+
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 1.5em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(255,255,255,0.02);
+}
+
+.icon{
+    max-width: 5em;
+    max-height: 4em;
+}
+
+.upload-box p {
+    color: var(--maincolor);
+    font-size: 1.5em;
+    font-family: var(--fontfamily);
+}
+
+.upload-box input {
+    display: none;
+}
+
+.upload-box label {
+    background: var(--maincolor);
+    color: var(--subcolor);
+
+    padding: 0.8em 1.5em;
+
+    border-radius: 0.5em;
+
+    cursor: pointer;
+
+    font-family: var(--fontfamily);
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+.finally{
+    text-align: center;   
+    box-sizing: content-box;
+    border-radius: 2em;
+    border-width: 3px;
+    border-style: solid;
+    padding: 1.5em 4em 1.5em 4em;
+    font-family: var(--fontfamily);
+    max-width: 30em;
+    max-height: 3em;
+    background-color: #374151;
+    color: var(--textcolor);
+    margin: 0 auto;
+    border-color:var(--maincolor);
+    font-size: 1em;
+    font-weight: 800;
+    transition: 0.8s;
+}
+.finally:hover{
+    background-color: var(--maincolor);
+    border-color: var(--subcolor);
+    transition: 0.8s;
+    cursor: pointer;
+}

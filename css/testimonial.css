@@ -1,0 +1,113 @@
+:root{
+    --subcolor: #374151;
+    --textcolor:  rgb(226, 229, 231);
+    --maincolor:#111827;
+    --navcolor:rgba(225, 255, 255, 0.3);
+    --fontfamily: tahoma, sans-serif;
+}
+.alltest{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.alexdesign {
+    background-color: #374151;
+    display: flex;
+    flex-direction: column;
+    width: 60em;
+    height: 24em;
+    border-radius:2em ;
+}
+.jobtitle{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 2em;
+    padding: 1em 1em 1em 1em;
+}
+.platform{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 1em;
+    padding: 1em 1em 1em 1em;
+    display: block;
+}
+.fourate{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 1em;
+    padding: 1em 1em 1em 1em;
+    display: block;
+}
+.divider{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.alex{
+    width: 7em;
+    height: 7em;
+    border-radius: 3.5em;
+}
+.namealex{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 3em;
+    padding: 1em 1em 1em 1em;
+}
+/**neur**/
+.neurdesign {
+    background-color: #374151;
+    display: flex;
+    flex-direction: column;
+    width: 60em;
+    height: 24em;
+    border-radius:2em ;
+}
+.neurtitle{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 2em;
+    padding:1em 1em 1em 1em;
+}
+.neurplatform{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 1em;
+    display: block;
+    padding:1em 1em 1em 1em;
+}
+.neurate{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 1em;
+    padding:1em 1em 1em 1em;
+    display: block;
+}
+.neurdivider{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.neur{
+    width: 7em;
+    height: 7em;
+    border-radius:3.5em;
+}
+.nameneur{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 3em;
+    padding: 1em 1em 1em 1em;
+}
+.ourusers{
+    font-size: 5em;
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    text-align: center;
+    font-weight: 800;
+}

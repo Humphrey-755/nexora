@@ -1,0 +1,68 @@
+:root{
+    --subcolor: #374151;
+    --textcolor:  rgb(226, 229, 231);
+    --maincolor:#111827;
+    --navcolor:rgba(225, 255, 255, 0.3);
+    --fontfamily: tahoma, sans-serif;
+}
+.faq{
+    font-size: 5em;
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+}
+.accordion{
+    width: 90%;
+    max-width: 40em;
+    margin: 3em auto;
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.accordion li{
+    list-style: none;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: #374151;
+    width: 100%;
+    margin: 1em 0;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.2em;
+    font-size: 1em;
+    font-weight: 800;
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+}
+label::before{
+    content: "+";
+    font-size: 1em;
+    font-weight: 800;
+    color: var(--textcolor);
+    font-family: var(--fontfamily);
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .fixprice{
+    color: var(--textcolor);
+    padding: 0.3em;
+    line-height: 1em;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+    margin: 0;
+    font-family: var(--fontfamily);
+}
+.accordion input[type="radio"]:checked + label + .fixprice{
+    max-height: 25em;
+    padding: 0.625px 0.625px 1.25em;
+}
+.accordion input[type="radio"]:checked + label::before{
+    content: "-";
+}

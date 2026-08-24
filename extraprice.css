@@ -1,0 +1,184 @@
+:root{
+    --subcolor: #374151;
+    --textcolor:  rgb(226, 229, 231);
+    --maincolor:#111827;
+    --navcolor:rgba(225, 255, 255, 0.3);
+    --fontfamily: tahoma, sans-serif;
+}
+body{
+    background-color: #111827;
+}
+.emailname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.namename{
+    display: flex;
+    flex-direction: column;
+}
+.companyindividual{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.companyname{
+    width: 30vw;
+    height: 7vh;
+    border-width: 1px;
+    border-color: var(--subcolor);
+    background-color: var(--navcolor);
+    border-style: solid;
+    border-radius: 1.3em;
+}
+.companyname:focus{
+    outline: none;
+}
+.emailemail{
+    display: flex;
+    flex-direction: column;
+}
+.emailaddress{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.companyemail{
+    border: 1px solid var(--subcolor);
+    background-color: var(--navcolor);
+    border-radius: 1.3em;
+    width: 30vw;
+    height: 7vh;
+}
+.companyemail:focus{
+    outline: none;
+}
+.budgetpayment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.estimatedbudget{
+    display: flex;
+    flex-direction: column;
+}
+.estimated{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.moneyvalue{
+    width: 30vw;
+    height: 7vh;
+    border-width: 1px;
+    border-color: var(--subcolor);
+    background-color: var(--navcolor);
+    border-style: solid;
+    border-radius: 1.3em;
+    cursor: pointer;
+}
+.moneyvalue:focus{
+    outline: none;
+}
+.paymentplan{
+    display: flex;
+    flex-direction: column;
+}
+.payplan{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.paytime{
+    width: 30vw;
+    height: 7vh;
+    border-width: 1px;
+    border-color: var(--subcolor);
+    background-color: var(--navcolor);
+    border-style: solid;
+    border-radius: 1.3em;
+    cursor: pointer;
+}
+.paytime:focus{
+    outline: none;
+}
+.selectany{
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3em;
+}
+.projext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.projexttwo{
+    display: flex;
+    flex-direction: column;
+}
+.finalsend{
+    display: block;
+    margin: 3em auto;
+    border: none;
+    background-color: var(--subcolor);
+    font-family: var(--fontfamily);
+    color: var(--textcolor);
+    font-size: 1.5em;
+    font-weight: 800;
+    padding: 0.8em;
+    border-radius: 4em;
+}
+.heading{
+    font-size: 3em;
+    color: var(--textcolor);
+    text-align: center;
+    font-weight: 900;
+    font-family: var(--fontfamily);
+    display: block;
+}
+.meaning{
+    font-size: 1em;
+    color: var(--textcolor);
+    display: block;
+    margin-top: 2em;
+    font-family: var(--fontfamily);
+    font-weight: 300;
+    width: 40vw;
+    display: block;
+    justify-content: left;
+    align-items: end;
+}
+.response{
+    font-size: 1em;
+    color: var(--textcolor);
+    display: block;
+    margin-top: 3em;
+    font-family: var(--fontfamily);
+    font-weight: 300;
+    margin-bottom: 3em;
+}
+.value{
+    width: 30vw;
+    height: 30vh;
+}
+.allintro{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+    justify-content: space-between;
+    vertical-align: auto;
+}
+@media screen and (max-width: 1200px) {
+    .allintro{
+        flex-direction: column;
+    }}

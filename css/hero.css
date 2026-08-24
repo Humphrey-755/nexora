@@ -1,0 +1,67 @@
+:root{
+    --subcolor: #374151;
+    --textcolor:  rgb(226, 229, 231);
+    --maincolor:#111827;
+    --navcolor:rgba(225, 255, 255, 0.3);
+    --fontfamily: tahoma, sans-serif;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+}
+.intro{
+    font-size: 5em;
+    color: var(--textcolor);
+    text-align: center;
+    font-weight: 900;
+    font-family: var(--fontfamily);
+}
+.idea{
+    font-size: 2em;
+    color: var(--textcolor);
+    display: block;
+    margin-top: 1em;
+    font-family: var(--fontfamily);
+}
+.board{
+    min-height: 400px;
+    min-width: 400px;
+    max-width: 700px;
+    max-height: 700px;
+    width: fit-content;
+    height: fit-content;
+}
+.extrabutton{
+    margin-top: 2em;
+    padding: 1em 1em 1em 1em;
+    border-color: #374151;
+    background-color: #111827;
+    font-family: var(--fontfamily);
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--textcolor);
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 2em;
+    min-height: 50px;
+    min-width: 100px;
+    max-width: 400px;
+    max-height: 200px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 1.5em;
+    transition: 0.8s;
+}
+.extrabutton:hover{
+    transition: 0.8s; background-color: #374151; border-color: #111827; 
+}
+@media screen and (max-width: 1200px) {
+    .hero{
+        flex-direction: column;
+    .board{
+        
+        max-width: 470px;
+        max-height: 500px;
+    }
+    }}
